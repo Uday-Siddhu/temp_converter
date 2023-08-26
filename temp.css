@@ -21,7 +21,7 @@ body{
     text-align: center;
     position: relative;
 }
-    @media(max-width : 680px){
+    @media(max-width : 720px){
     .Temp{
         flex-direction: column;
     }
@@ -33,7 +33,7 @@ body{
         font-size: 25px;
     }
 }
-@media(min-width: 681px){
+@media(min-width: 721px){
     .Temp{
         flex-direction: row;
     }
