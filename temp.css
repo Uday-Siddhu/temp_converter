@@ -13,10 +13,7 @@ body{
     display: flex;
     justify-content: center;
 }
-.heading h1{
-    color : white;
-    font-size: 45px;
-}
+
 .Temp{
     display: flex;
     justify-content: space-between;
@@ -31,6 +28,10 @@ body{
     .result{
         font-size: 20px;
     }
+    .heading h1{
+        color : white;
+        font-size: 25px;
+    }
 }
 @media(min-width: 681px){
     .Temp{
@@ -38,6 +39,10 @@ body{
     }
     .result{
         font-size: 40px;
+    }
+    .heading h1{
+        color : white;
+        font-size: 45px;
     }
 }
 .C,.K,.F{
