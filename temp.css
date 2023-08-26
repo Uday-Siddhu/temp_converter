@@ -24,6 +24,22 @@ body{
     text-align: center;
     position: relative;
 }
+    @media(max-width : 680px){
+    .Temp{
+        flex-direction: column;
+    }
+    .result{
+        font-size: 20px;
+    }
+}
+@media(min-width: 681px){
+    .Temp{
+        flex-direction: row;
+    }
+    .result{
+        font-size: 40px;
+    }
+}
 .C,.K,.F{
     display: flex;
     flex-direction: column;
@@ -36,7 +52,6 @@ body{
     font-size : 20px;
 }
 #C-result, #F-result, #K-result{
-    font-size : 40px;
     color : white;
 }
 #C-input, #F-input, #K-input{
