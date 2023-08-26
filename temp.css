@@ -13,7 +13,10 @@ body{
     display: flex;
     justify-content: center;
 }
-
+.heading h1{
+        color : white;
+        font-size: 45px;
+    }
 .Temp{
     display: flex;
     justify-content: space-between;
@@ -33,18 +36,7 @@ body{
         font-size: 25px;
     }
 }
-@media(min-width: 721px){
-    .Temp{
-        flex-direction: row;
-    }
-    .result{
-        font-size: 40px;
-    }
-    .heading h1{
-        color : white;
-        font-size: 45px;
-    }
-}
+
 .C,.K,.F{
     display: flex;
     flex-direction: column;
@@ -72,6 +64,7 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 70px;
+    font-size: 40px;
 }
 
 .F button, .C button, .K button{
